@@ -33,6 +33,7 @@
 .row{
     display: flex;
     flex-direction: row;
+    column-gap: 0.3rem;
 }
 
 .Top_Banner{
@@ -118,7 +119,7 @@ body{
 .Menu_Category_L{
     display: flex;
     flex-direction: column;
-    width: 430px;
+    width: 380px;
     height: 90%;
     align-items: center;
     justify-content: center;
@@ -137,7 +138,7 @@ body{
 .Menu_Category_R{
     display: flex;
     flex-direction: column;
-    width: 430px;
+    width: 380px;
     height: 90%;
     align-items: center;
     justify-content: center;
@@ -146,4 +147,66 @@ body{
     border-radius: 4px;
     cursor: pointer;
     background-color: #FAFAFA;
+}
+.Menu_Body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+}
+.Menu_Navigation{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-left: 9rem;
+}
+.Line{
+    width:250px;
+    height: 8px;
+    background-color: #ED2225;
+    margin-bottom: 1rem;
+}
+.Menu{
+    display: flex;
+}
+.Section{
+    width: 430px;
+    height: fit-content;
+}
+.Section_Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Section_Header img{
+    width: 45px; 
+    height: 28px; 
+    border-radius: 8px;
+}
+h4{
+    font-size: 24px;
+    color: #D9423F;
+}
+.Section_Body{
+    width: 470px;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.item_Box{
+    width: 420px;
+    height: fit-content;
+    margin-top: 1rem;
+}
+.Item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Item p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.Item_Content p{
+    font-size: 13px;
 }
