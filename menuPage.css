@@ -169,6 +169,8 @@ body{
 }
 .Menu{
     display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 .Section{
     width: 430px;
@@ -177,6 +179,7 @@ body{
 .Section_Header{
     display: flex;
     flex-direction: row;
+    column-gap: 0.3rem;
     align-items: center;
 }
 .Section_Header img{
